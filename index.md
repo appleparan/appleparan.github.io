@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="https://raw.githubusercontent.com/appleparan/appleparan.github.io/master/profile.jpg">
+  <img width="300" height="390" src="https://raw.githubusercontent.com/appleparan/appleparan.github.io/master/profile.jpg">
 </p>
 
 Hi, my name is Jongsu Kim(김종수) in Korean, but I prefer to use English name as "Liam Kim". 
