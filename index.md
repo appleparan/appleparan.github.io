@@ -8,8 +8,9 @@ I have a B.S. for atomspheric science and computer science at Yonsei University.
 My research interest is study of finite size particle interaction in isotropic turbulence using CFD(Computational Fluid Dynamics) simulations.
 Not only scientific study of research, I'm also highly interested in scientific computing and HPC(High Performance Computing) field,   especially writing numerical simulation code in [julia, a programming language for numerical computing](https://julialang.org/).
 
-### Links
+### Links & Contact
 
-* [blog](https://liam.kim/blog)
+* [Blog](https://liam.kim/blog)
 * [Github](https://github.com/appleparan)
 * [Linkedin](https://www.linkedin.com/in/jongsu-liam-kim-63458347/)
+* [Email](mailto:jongsukim8@gmail.com)
