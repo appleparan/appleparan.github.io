@@ -10,5 +10,6 @@ Not only scientific study of research, I'm also highly interested in scientific 
 
 ### Links
 
+* [blog](http://liam.kim/blog)
 * [Github](http://github.com/appleparan)
 * [Linkedin](https://www.linkedin.com/in/jongsu-liam-kim-63458347/)
