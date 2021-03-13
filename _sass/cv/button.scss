@@ -62,19 +62,24 @@
     float: right;
 }
 
-.pdf-download > ul{
+.pdf-download > ul {
     list-style-type: none;
     margin: 0 0;
 }
 
-
 .pdf-download > ul > .pdf-title {
     display: inline-block;
+    margin: 0 5px 0 0px;
 }
 
-.pdf-download > ul > .pdf-button {
+.pdf-download > ul > .pdf-kor {
     display: inline-block;
-    margin: 0 0 0 10px;
+    margin: 0 5px 0 0;
+}
+
+.pdf-download > ul > .pdf-eng {
+    display: inline-block;
+    margin: 0 0 0 5px;
 }
 
 .dark {

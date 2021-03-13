@@ -27,7 +27,7 @@
               </a>
             </li>
           {%- endif -%}
-          
+
           {%- if site.linkedin -%}
             <li>
               <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}" class="button button--sacnite button--round-l">
@@ -35,7 +35,7 @@
               </a>
             </li>
           {%- endif -%}
-          
+
           {%- if site.orcid -%}
             <li>
               <a target="_blank" href="https://orcid.org/{{ site.orcid }}" class="button button--sacnite button--round-l">
@@ -44,7 +44,7 @@
             </li>
           {%- endif -%}
         </ul>
-  
+
         {%- if site.cv_email -%}
           <p>
             {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.cv_email }}" target="_blank">{{ site.cv_email | escape }}</a>
@@ -64,19 +64,18 @@
           <div class="pdf-download">
             <ul>
                 <li class="pdf-title">PDF: </li>
-                <li class="pdf-button"><a target="_blank" href="{{ site.cv_pdf_kor}}" >
+                <li class="pdf-kor"><a target="_blank" href="{{ site.cv_pdf_kor}}" >
                     <i class="fa fa-download" aria-hidden="true"></i>
                     Korean</a>
                 </li>
-                <li class="pdf-button"><a target="_blank" href="{{ site.cv_pdf_eng}}">
+                <li class="pdf-eng"><a target="_blank" href="{{ site.cv_pdf_eng}}">
                     <i class="fa fa-download" aria-hidden="true"></i>
                     English</a>
                 </li>
             </ul>
           </div>
-            
+
         {%- endif -%}
       </div>
     </div>
   </div>
-  
