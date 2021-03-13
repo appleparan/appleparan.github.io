@@ -1,0 +1,82 @@
+<div class="container header-contianer">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+        <h1>{{ site.cv_name | escape }}</h1>
+        <h2>{{ site.cv_title | escape }}</h2>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+        <ul class="icons no-print">
+          {%- if site.github -%}
+            <li>
+              <a target="_blank" href="https://github.com/{{ site.github }}" class="button button--sacnite button--round-l">
+                <i class="fab fa-github" aria-hidden="true" title="Github link"></i>
+              </a>
+            </li>
+          {%- endif -%}
+          {%- if site.stackoverflow -%}
+            <li>
+              <a target="_blank" href="https://stackoverflow.com/users/{{ site.stackoverflow }}" class="button button--sacnite button--round-l">
+                <i class="fab fa-stack-overflow" aria-hidden="true" title="Stackoverflow link"></i>
+              </a>
+            </li>
+          {%- endif -%}
+          
+          {%- if site.linkedin -%}
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}" class="button button--sacnite button--round-l">
+                <i class="fab fa-linkedin" aria-hidden="true" title="Linkedin link"></i>
+              </a>
+            </li>
+          {%- endif -%}
+          {%- if site.twitter -%}
+            <li>
+              <a target="_blank" href="https://twitter.com/{{ site.twitter }}" class="button button--sacnite button--round-l">
+                <i class="fab fa-twitter" aria-hidden="true" title="Twitter link"></i>
+              </a>
+            </li>
+          {%- endif -%}
+          
+          {%- if site.orcid -%}
+            <li>
+              <a target="_blank" href="https://orcid.org/{{ site.orcid }}" class="button button--sacnite button--round-l">
+                <i class="fab fa-orcid" aria-hidden="true" title="ORCiD link"></i>
+              </a>
+            </li>
+          {%- endif -%}
+        </ul>
+  
+        {%- if site.cv_email -%}
+          <p>
+            {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.cv_email }}" target="_blank">{{ site.cv_email | escape }}</a>
+          </p>
+        {%- endif -%}
+        {%- if site.cv_phone -%}
+          <p>
+            {{ site.phone_title | default: "Phone" }}: {{ site.cv_phone | escape }}
+          </p>
+        {%- endif -%}
+        {%- if site.cv_website -%}
+          <p>
+            {{ site.website_title | default: "Web" }}: <a href="{{ site.cv_website }}">{{ site.cv_website_name }}</a>
+          </p>
+        {%- endif -%}
+        {%- if site.cv_website -%}
+          <div class="pdf-download">
+            <ul>
+                <li class="pdf-title">PDF: </li>
+                <li class="pdf-button"><a target="_blank" href="{{ site.cv_pdf_kor}}" >
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    Korean</a>
+                </li>
+                <li class="pdf-button"><a target="_blank" href="{{ site.cv_pdf_eng}}">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    English</a>
+                </li>
+            </ul>
+          </div>
+            
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+  

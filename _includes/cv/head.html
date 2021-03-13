@@ -1,0 +1,19 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name=description content="{{ site.bio }}">
+    <meta name=author content="{{ site.name }}">
+  
+    <title>{{ site.name }} | {{ site.title }} - Curriculum Vitae</title>
+    {%- seo title=false -%}
+  
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | default: '/assets/favicon.ico' | relative_url }}">
+
+    <style>
+    {% capture scss_sheet %}{% include cv/cv-style.scss %}{% endcapture %}
+    {{ scss_sheet | scssify }}
+    </style>
+  </head>

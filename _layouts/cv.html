@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  {%- include cv/head.html -%}
+
+  <body
+    class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}"
+  >
+    {%- include cv/header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {%- include cv/about.html -%} {% for section in site.content %}
+        <div class="container {{ section.layout }}-container">
+          <h3>{{ section.title }}</h3>
+          {% include {{ section.layout | prepend: "cv/section-" | append: ".html"
+          }} content=section.content %}
+        </div>
+        {% endfor %}
+      </div>
+    </main>
+
+    {%- include cv/footer.html -%} {% if site.darkmode == false %}
+    <script src="if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.body.classList.add("dark");"></script>
+    {% endif %}
+  </body>
+</html>
