@@ -1,3 +1,95 @@
-theme: jekyll-theme-hacker
-title: Jongsu Liam Kim
-show_downloads: false
+
+name: Jongsu Liam Kim
+description: Jongsu Liam Kim's Personal Website
+
+# Profile picture
+picture: assets/images/profile.jpg
+
+# your url: http://USERNAME.github.io
+url: https://liam.kim
+
+# do you want to display social media links? true or false
+social-media: true
+  # Add your username for the social media websites listed below
+  # If you don't have an account on any of them, comment out the line
+  twitter: sky0bserver
+  linkedin: jongsu-liam-kim-63458347
+  github: appleparan
+  stackoverflow: 743078
+  keybase: appleparan
+  email: jongsukim8@gmail.com
+
+width: normal
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Jongsu Kim"
+resume_title:                   "Machine Learning Engineer"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "jongsukim8@gmail.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "+82 10-2019-8869"
+
+resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+
+resume_social_links:
+  resume_github_url:            "https://github.com/appleparan"
+  resume_twitter_url:           "http://twitter.com/sky0bserver"
+  resume_linkedin_url:          "https://www.linkedin.com/in/jongsu-liam-kim-63458347"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  resume_website_url:           "http://liam.kim"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# do you want to display a skills section? true or false
+skills: false
+
+# add your skills here
+skills-list:
+    - Proficient in machine learning and deep learning skills for Time Series Forecasitng and Natural Language Processing
+    - Data Science
+    - Statsitics
+    - Fluid Mechanics
+    - Machine Learning, Data Science, Statistics
+    - Fluid Mechanics, Computational Fluid Dynamics
+    - Mahtematical Modeling, Numerical Analysis
+    - Cloud Computing, Parallel Computing
+    - Python
+    - Julia
+    - C, C++, Fortran, Matlab
+    - SQL
+    - HTML/CSS/JavaScript/TypeScript
+    - Linux
+    - Git
+    - LaTeX
+
+
+# do you want to display the theme attribution? true or false
+footer: true
+
+# do you want to display an about section? true or false
+about: true
+
+# Enable animations? true or false
+animation: true
+
+plugins:
+  - jekyll-seo-tag
+
+exclude: [README.md, Gemfile, Gemfile.lock, _site, Rakefile, travis.sh, vendor]
+
+regenerate: true
+livereload: true
+verbose: true
+debug: true
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+

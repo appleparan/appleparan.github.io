@@ -1,0 +1,21 @@
+{% if site.about %}
+    <nav class="nav-home">
+        <ul class="list">
+            <li class="item">
+                <h2>About</h2>
+            </li>
+        </ul>
+    </nav> 
+    {% include about.html %}
+{% endif %}
+
+{% if site.cv %}
+    <nav class="nav-home">
+        <ul class="list">
+            <li class="item">
+                <h2>CV</h2>
+            </li>
+        </ul>
+    </nav>
+    {% include cv/cv.html %}
+{% endif %}
