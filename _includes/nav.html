@@ -9,13 +9,23 @@
     {% include about.html %}
 {% endif %}
 
-{% if site.cv %}
-    <nav class="nav-home">
-        <ul class="list">
-            <li class="item">
-                <h2>CV</h2>
-            </li>
-        </ul>
-    </nav>
-    {% include cv/cv.html %}
-{% endif %}
+<nav class="nav-home">
+    <ul class="list">
+        <li class="item">
+            <h2>CV</h2>
+        </li>
+    </ul>
+
+    <ul class="links">
+        <li class="item">
+            <a class="link" href="cv/cv.html">CV (Web)</a>
+        </li>
+        <li class="item">
+            <a class="link" href="cv/cv-kor.pdf">CV (PDF, Kor.)</a>
+        </li>
+        <li class="item">
+            <a class="link" href="cv/cv-eng.html">CV (PDF, Eng.)</a>
+        </li>
+    </ul>
+</nav>
+
