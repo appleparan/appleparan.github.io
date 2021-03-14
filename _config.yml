@@ -51,17 +51,103 @@ cv_pdf_eng: "assets/cv/CV_Jongsu_Kim_Eng.pdf"
 cv_profile: assets/images/profile.jpg
 
 about_content: |
-  Aim to be a machine learning research engineer
+  Hi, my name is Jongsu Kim, I'm a upcoming PhD qualified
+  by a research background in machine learning and mathematical modeling
+  focused on time series forecasting and computational fluid dynamics.
+
+  I have a strong coding ability both in producing clean and efficient code.
+  Moreover, with mathematically modeling experience, I have strong analytic skills.
+  I also enjoy learning and mastering new technologies.
 
 content:
-  - title: KEY SKILLS AND KNOWLEDGE AREAS
+  - title: SKILLS (WIP)
     layout: list
     content:
-        - layout: left
-          quote: >
-            * High proficiency of technologies, tools, and best practices in planning and designing equipment using AutoCAD and other engineering software.
-            * Excellent attention to detail and command of digital image and video manipulation software.
-            * Strong communication and organizational skills. Worked closely with teammates to complete objectives and deliverables.
+      - layout: top-middle
+        title: Machine Learning and Deep Learning
+        sub_title: | #
+          Time Series forecasting, Natural Language Processing
+      - layout: top-middle
+        title: Mathematical Modeling
+        sub_title: | #
+          Statistics, Computational Fluid Dynamics, Numerical Analysis
+      - layout: top-middle
+        title: Languages
+        sub_title: | #
+          Python, Julia, C++, Fortran, MATLAB, HTML/CSS, TypeScript
+      - layout: top-middle
+        title: Frameworks
+        sub_title: | #
+          PyTorch, Tensorflow, Keras, Flux.jl
+      - layout: top-middle
+        title: Code and Code Quality Managing
+        sub_title: | #
+          Git, GitHub, Travis-Ci, Github Actions, pytest, tox
+      - layout: top-middle
+        title: Server Engineering
+        sub_title: | #
+          Linux, High Performance Computing, Cloud Computing (AWS, GCP)
+
+  - title: EXPERIENCE (WIP)
+    layout: list
+    content:
+      - layout: top-left
+        title: Yonsei University
+        sub_title: | #
+          Computational Science and Engineering
+        caption: 09/2011 ~ Current
+      - layout: top-left
+        title: SK C&C
+        sub_title: | #
+          Full time work
+        caption: 07/2010 ~ 08/2010
+        description: | #
+          I learned Database management using C# and SQL.
+  
+  - title: EDUCATION (WIP)
+    layout: list
+    content:
+      - layout: top-left
+        title: Yonsei University, South Korea
+        sub_title: | #
+          PhD Computational Science and Engineering
+        caption: 09/2011 ~ Current
+        description: >
+          Expected defense data: Jun. 2021
+      - layout: top-left
+        title: Yonsei University, South Korea
+        sub_title: | #
+          BSc Atmospheric Science, BSE Computer Science
+        caption: 03/2007 ~ 08/2011
+
+  - title: PUBLICATION
+    layout: text
+    content: | #
+      * Gihun Shim, Jongsu Kim, and Changhoon Lee. Path instability of a spheroidal bubble in isotropic turbulence, Physical Review Fludis, Submitted
+      * Particulate matter (PM) forecasting using machine learning method, Jongsu Kim, Changhoon Lee, in manuscript
+  
+  - title: Awards
+    layout: text
+    content:
+      - layout: top-middle
+        title: NVIDIA CUDA<sup>tm</sup> Coding Contest
+        sub_title: | #
+          BSc Atmospheric Science, BSE Computer Science
+        caption: 03/2010
+        description: >
+          Designated Subject: Matrix Multiplication
+
+  - title: Open Source Contributions (WIP)
+    layout: list
+  #   content:
+  #     - layout: top-middle
+  #       title: BlahBlah
+  #       sub_title: | #
+  #         PhD Computational Science and Engineering
+  #       caption: 09/2011 ~ Current
+  #       description: >
+  #         Expected defense data: Jun. 2021
+
 # content:
 #   - title: Section Name
 #     layout: list (options: list, text)
