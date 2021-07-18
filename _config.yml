@@ -103,7 +103,7 @@ content:
         caption: 07/2010 ~ 08/2010
         description: | #
           I learned Database management using C# and SQL.
-  
+
   - title: EDUCATION (WIP)
     layout: list
     content:
@@ -123,19 +123,13 @@ content:
   - title: PUBLICATION
     layout: text
     content: | #
-      * Gihun Shim, Jongsu Kim, and Changhoon Lee. Path instability of a spheroidal bubble in isotropic turbulence, Physical Review Fludis, Submitted
-      * Particulate matter (PM) forecasting using machine learning method, Jongsu Kim, Changhoon Lee, in manuscript
-  
-  - title: Awards
-    layout: text
-    content:
-      - layout: top-middle
-        title: NVIDIA CUDA<sup>tm</sup> Coding Contest
-        sub_title: | #
-          BSc Atmospheric Science, BSE Computer Science
-        caption: 03/2010
-        description: >
-          Designated Subject: Matrix Multiplication
+      * Gihun Shim, Jongsu Kim, and Changhoon Lee.
+        Path instability of a spheroidal bubble in isotropic turbulence,
+        Physical Review Fluids, 6.7 (2021): 073603 [https://doi.org/10.1103/PhysRevFluids.6.073603](https://doi.org/10.1103/PhysRevFluids.6.073603)
+      * Jongsu Kim and Changhoon Lee,
+        Deep Particulate Matter Forecasting Model Using Correntropy-Induced Loss,
+        Journal of Mechanical Science and Technology, accepted,
+        [https://arxiv.org/abs/2106.03032](https://arxiv.org/abs/2106.03032)
 
   - title: Open Source Contributions (WIP)
     layout: list
