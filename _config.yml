@@ -134,16 +134,72 @@ content:
         Journal of Mechanical Science and Technology, accepted,
         [https://arxiv.org/abs/2106.03032](https://arxiv.org/abs/2106.03032)
 
-  - title: Open Source Contributions (WIP)
+  - title: Open-source Contributions
     layout: list
-  #   content:
-  #     - layout: top-middle
-  #       title: BlahBlah
-  #       sub_title: | #
-  #         PhD Computational Science and Engineering
-  #       caption: 09/2011 ~ Current
-  #       description: >
-  #         Expected defense data: Jun. 2021
+    content:
+      - layout: top-middle
+        title: [invenia/Impute.jl](https://github.com/invenia/Impute.jl)
+        description: >
+          [issue#58](https://github.com/invenia/Impute.jl/issues/58),
+          [issue#61](https://github.com/invenia/Impute.jl/issues/61)
+          [PR#54](https://github.com/invenia/Impute.jl/pull/54)
+      - layout: top-middle
+        title: [LAMPSPUC/StateSpaceModels.jl](https://github.com/LAMPSPUC/StateSpaceModels.jl)
+        description: >
+          [issue#143](https://github.com/LAMPSPUC/StateSpaceModels.jl/issues/143)
+      - layout: top-middle
+        title: [optuna/optuna](https://github.com/optuna/optuna)
+        description: >
+          [issue#2011](https://github.com/optuna/optuna/issues/2011)
+      - layout: top-middle
+        title: [bokeh/bokehs](https://github.com/bokeh/bokeh)
+        description: >
+          [issue#10172](https://github.com/bokeh/bokeh/issues/10172)
+      - layout: top-middle
+        title: [JuliaGPU/CuArrays.jl](https://github.com/JuliaGPU/CuArrays.jl)
+        description: >
+          [issue#346](https://github.com/JuliaGPU/CuArrays.jl/issues/346)
+      - layout: top-middle
+        title: [minmul117/vscode-sublette](https://github.com/minmul117/vscode-sublette)
+        description: >
+          [issue#9](https://github.com/minmul117/vscode-sublette/issues/9),
+          [PR#6](https://github.com/minmul117/vscode-sublette/pull/6),
+          [PR#18](https://github.com/minmul117/vscode-sublette/pull/18)
+      - layout: top-middle
+        title: [FluxML/Flux.jl](https://github.com/FluxML/Flux.jl)
+        description: >
+          [PR#930](https://github.com/FluxML/Flux.jl/issues/930),
+      - layout: top-middle
+        title: [\@types/cytoscape](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/d9fea1cc79eaff6202dbdaa2c737b9b2c1adfa37/types/cytoscape)
+        description: >
+          [PR#42293](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/42293),
+      - layout: top-middle
+        title: [\@types/mathjs](https://github.com/DefinitelyTyped/DefinitelyTyped/)
+        description: >
+          [PR#30211](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/30211),
+          [PR#32117](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/32117),
+      - layout: top-middle
+        title: [capajon/r6maps](https://github.com/capajon/r6maps)
+        description: >
+          [PR#27](https://github.com/capajon/r6maps/pull/27),
+          [PR#40](https://github.com/capajon/r6maps/pull/40).
+          [PR#59](https://github.com/capajon/r6maps/pull/59).
+          [PR#93](https://github.com/capajon/r6maps/pull/93)
+      - layout: top-middle
+        title: [juliakorea/doc](https://github.com/juliakorea/doc)
+        description: >
+          [PR#11](https://github.com/juliakorea/doc/pull/11),
+          [PR#12](https://github.com/juliakorea/doc/pull/12),
+          [PR#16](https://github.com/juliakorea/doc/pull/16),
+          [PR#20](https://github.com/juliakorea/doc/pull/20),
+          [PR#27](https://github.com/juliakorea/doc/pull/27),
+          [PR#28](https://github.com/juliakorea/doc/pull/28),
+          [PR#51](https://github.com/juliakorea/doc/pull/51),
+          [PR#54](https://github.com/juliakorea/doc/pull/54),
+      - layout: top-middle
+        title: [jacobwilliams/json-fortran](https://github.com/jacobwilliams/json-fortran)
+        description: >
+          [issue#152](https://github.com/jacobwilliams/json-fortran/issues/152)
 
 # content:
 #   - title: Section Name
