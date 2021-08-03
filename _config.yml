@@ -115,7 +115,12 @@ content:
       - layout: top-left
         title: Yonsei University, South Korea
         sub_title: | #
-          BSc in Atmospheric Science, BSE in Computer Science
+          BSc in Atmospheric Science
+        caption: 03/2007 ~ 08/2011
+      - layout: top-left
+        title: Yonsei University, South Korea
+        sub_title: | #
+          BSE in Computer Science
         caption: 03/2007 ~ 08/2011
 
   - title: PUBLICATION
