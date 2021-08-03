@@ -74,7 +74,7 @@ content:
       - layout: top-middle
         title: Languages
         sub_title: | #
-          Python, Julia, C++, Fortran, MATLAB, HTML/CSS, TypeScript
+          Python, Julia, C++, Fortran, MATLAB, HTML/CSS, Javascript, TypeScript
       - layout: top-middle
         title: Frameworks
         sub_title: | #
@@ -91,11 +91,18 @@ content:
   - title: EXPERIENCE
     layout: list
     content:
-      - layout: top-middle
-        title: Yonsei University, South Korea
-        sub_title: | #
-          School of Mathematics and Computing (Computational Science and Engineering)
+      - layout: top-left
+        title: Laboratory Deep Learing/CFD Simulation Engineer
+        sub_title: Yonsei University, South Korea
         caption: 09/2011 ~ 08/2021
+        description: | #
+          * Particulate Matter (PM) forecasting by deep learning methods for time series forecasting (2018-2021)
+          * Modeling and simulation of finite-size particles in homogeneous isotropic turbulence using psuedo-spectral methods and immersed boundary methods (2015-2018)
+          * Modeling and simulation of finite-size droplets in laminar flows using level set methods (2011-2015)
+          * Communicate to support laboratory colleagues who was struggling with computer science-related problems such as algorithms, debugging, and so on.
+          * Programming knowledge (mainly Julia, C++, Fortran)
+          * Create web pages for multiple purposes in the department, such as conference, introduction pages, and so on.
+          * Administrator of laboratory server (cluster with ~30 nodes)
       # - layout: top-left
       #   title: SK C&C
       #   sub_title: | #
@@ -107,21 +114,30 @@ content:
   - title: EDUCATION
     layout: list
     content:
-      - layout: top-middle
+      - layout: top-left
         title: Yonsei University, South Korea
         sub_title: | #
           Ph.D. in Computational Science and Engineering-Mechanical/Electrical Engineering
         caption: 09/2011 ~ 08/2021
-      - layout: top-middle
+        description: | #
+          #### Related course work
+          * Advanced Partial Differential Equations (PDE)
+          * Advanced Numerical Analysis
+          * Fluid Mechanics: Incompressible viscous flow and turbulent flow
+          * Advanced CFD methods: Immersed Boundary Methods (IB Methods), Large Eddy Simulation (LES), Advanced projection method, Simulation using OpenFOAM
+          * Cloud dynamics and atmospheric dynamics (lectures in Atmospheric Science)
+          * Computational photography (lecture in Computer Science)
+          * Multicore parallel programming (lecture in Electrical and Electronic Engineering)
+
+      - layout: top-left
         title: Yonsei University, South Korea
         sub_title: | #
-          BSc in Atmospheric Science
+          BSc in Atmospheric Science, BSE in Computer Science
         caption: 03/2007 ~ 08/2011
-      - layout: top-middle
-        title: Yonsei University, South Korea
-        sub_title: | #
-          BSE in Computer Science
-        caption: 03/2007 ~ 08/2011
+        description: | #
+          * Undergraduate knowledge of Atomspheric Science
+          * Undergraduate knowledge of Computer Science
+          * National Science & Technology Scholarship (2007~2009)
 
   - title: PUBLICATION
     layout: text
@@ -156,7 +172,7 @@ content:
           [ISSUE#2011](https://github.com/optuna/optuna/ISSUEs/2011)
       - layout: top-left
         title: | #
-          [bokeh/bokehs](https://github.com/bokeh/bokeh)
+          [bokeh/bokeh](https://github.com/bokeh/bokeh)
         description: >
           [ISSUE#10172](https://github.com/bokeh/bokeh/ISSUEs/10172)
       - layout: top-left
