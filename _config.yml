@@ -51,13 +51,14 @@ cv_pdf_eng: "assets/cv/CV_Jongsu_Kim_Eng.pdf"
 cv_profile: assets/images/profile.jpg
 
 about_content: |
-  Hi, my name is Jongsu Kim, I'm a upcoming PhD qualified
-  by a research background in machine learning and mathematical modeling
+  Hi, my name is Jongsu Kim, I'm a Ph.D. in Computational Science and Engineering-Mechanical/Electrical Engineering
+  qualified by a research background in machine learning and mathematical modeling
   focused on time series forecasting and computational fluid dynamics.
 
-  I have a strong coding ability both in producing clean and efficient code.
-  Moreover, with mathematically modeling experience, I have strong analytic skills.
-  I also enjoy learning and mastering new technologies.
+  I can model mathematical or physical simulations by computer simulation code.
+  Moreover, I have analytic skills for physical phenomenon.
+  Not only modeling skills, I also have a strong computer science background and
+  like to actively learn new technologies.
 
 content:
   - title: SKILLS
@@ -100,6 +101,7 @@ content:
           * Modeling and simulation of finite-size particles in homogeneous isotropic turbulence using psuedo-spectral methods and immersed boundary methods (2015-2018)
           * Modeling and simulation of finite-size droplets in laminar flows using level set methods (2011-2015)
           * Communicate to support laboratory colleagues who was struggling with computer science-related problems such as algorithms, debugging, and so on.
+            The process was then documented so that the next time the team encountered the same situation, they could follow a similar procedure.
           * Programming knowledge (mainly Julia, C++, Fortran)
           * Create web pages for multiple purposes in the department, such as conference, introduction pages, and so on.
           * Administrator of laboratory server (cluster with ~30 nodes)
