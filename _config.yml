@@ -34,7 +34,7 @@ animation: true
 
 # CV settings
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 cv_name: "Jongsu Kim"
 cv_title: "Machine Learning Researcher"
