@@ -193,7 +193,7 @@ content:
         title: | #
           [FluxML/Flux.jl](https://github.com/FluxML/Flux.jl)
         description: >
-          [PR#930](https://github.com/FluxML/Flux.jl/issues/930),
+          [ISSUE#930](https://github.com/FluxML/Flux.jl/issues/930),
       - layout: top-left
         title: | #
           [@types/cytoscape](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/d9fea1cc79eaff6202dbdaa2c737b9b2c1adfa37/types/cytoscape)
