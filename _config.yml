@@ -92,10 +92,10 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Yonsei University
+        title: Yonsei University, South Korea
         sub_title: | #
           School of Mathematics and Computing (Computational Science and Engineering)
-        caption: 09/2011 ~ Current
+        caption: 09/2011 ~ 08/2021
       # - layout: top-left
       #   title: SK C&C
       #   sub_title: | #
