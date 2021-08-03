@@ -60,7 +60,7 @@ about_content: |
   I also enjoy learning and mastering new technologies.
 
 content:
-  - title: SKILLS (WIP)
+  - title: SKILLS
     layout: list
     content:
       - layout: top-middle
@@ -91,10 +91,10 @@ content:
   - title: EXPERIENCE
     layout: list
     content:
-      - layout: top-left
+      - layout: top-middle
         title: Yonsei University
         sub_title: | #
-          Computational Science and Engineering
+          School of Mathematics and Computing (Computational Science and Engineering)
         caption: 09/2011 ~ Current
       # - layout: top-left
       #   title: SK C&C
@@ -107,17 +107,17 @@ content:
   - title: EDUCATION
     layout: list
     content:
-      - layout: top-left
+      - layout: top-middle
         title: Yonsei University, South Korea
         sub_title: | #
           Ph.D. in Computational Science and Engineering-Mechanical/Electrical Engineering
         caption: 09/2011 ~ 08/2021
-      - layout: top-left
+      - layout: top-middle
         title: Yonsei University, South Korea
         sub_title: | #
           BSc in Atmospheric Science
         caption: 03/2007 ~ 08/2011
-      - layout: top-left
+      - layout: top-middle
         title: Yonsei University, South Korea
         sub_title: | #
           BSE in Computer Science
@@ -137,56 +137,67 @@ content:
   - title: Open-source Contributions
     layout: list
     content:
-      - layout: top-middle
-        title: [invenia/Impute.jl](https://github.com/invenia/Impute.jl)
+      - layout: top-left
+        title: | #
+          [invenia/Impute.jl](https://github.com/invenia/Impute.jl)
         description: >
-          [issue#58](https://github.com/invenia/Impute.jl/issues/58),
-          [issue#61](https://github.com/invenia/Impute.jl/issues/61)
+          [ISSUE#58](https://github.com/invenia/Impute.jl/ISSUEs/58),
+          [ISSUE#61](https://github.com/invenia/Impute.jl/ISSUEs/61)
           [PR#54](https://github.com/invenia/Impute.jl/pull/54)
-      - layout: top-middle
-        title: [LAMPSPUC/StateSpaceModels.jl](https://github.com/LAMPSPUC/StateSpaceModels.jl)
+      - layout: top-left
+        title: | #
+          [LAMPSPUC/StateSpaceModels.jl](https://github.com/LAMPSPUC/StateSpaceModels.jl)
         description: >
-          [issue#143](https://github.com/LAMPSPUC/StateSpaceModels.jl/issues/143)
-      - layout: top-middle
-        title: [optuna/optuna](https://github.com/optuna/optuna)
+          [ISSUE#143](https://github.com/LAMPSPUC/StateSpaceModels.jl/ISSUEs/143)
+      - layout: top-left
+        title: | #
+          [optuna/optuna](https://github.com/optuna/optuna)
         description: >
-          [issue#2011](https://github.com/optuna/optuna/issues/2011)
-      - layout: top-middle
-        title: [bokeh/bokehs](https://github.com/bokeh/bokeh)
+          [ISSUE#2011](https://github.com/optuna/optuna/ISSUEs/2011)
+      - layout: top-left
+        title: | #
+          [bokeh/bokehs](https://github.com/bokeh/bokeh)
         description: >
-          [issue#10172](https://github.com/bokeh/bokeh/issues/10172)
-      - layout: top-middle
-        title: [JuliaGPU/CuArrays.jl](https://github.com/JuliaGPU/CuArrays.jl)
+          [ISSUE#10172](https://github.com/bokeh/bokeh/ISSUEs/10172)
+      - layout: top-left
+        title: | #
+          [JuliaGPU/CuArrays.jl](https://github.com/JuliaGPU/CuArrays.jl)
         description: >
-          [issue#346](https://github.com/JuliaGPU/CuArrays.jl/issues/346)
-      - layout: top-middle
-        title: [minmul117/vscode-sublette](https://github.com/minmul117/vscode-sublette)
+          [ISSUE#346](https://github.com/JuliaGPU/CuArrays.jl/ISSUEs/346)
+      - layout: top-left
+        title: | #
+          [minmul117/vscode-sublette](https://github.com/minmul117/vscode-sublette)
         description: >
-          [issue#9](https://github.com/minmul117/vscode-sublette/issues/9),
+          [ISSUE#9](https://github.com/minmul117/vscode-sublette/ISSUEs/9),
           [PR#6](https://github.com/minmul117/vscode-sublette/pull/6),
           [PR#18](https://github.com/minmul117/vscode-sublette/pull/18)
-      - layout: top-middle
-        title: [FluxML/Flux.jl](https://github.com/FluxML/Flux.jl)
+      - layout: top-left
+        title: | #
+          [FluxML/Flux.jl](https://github.com/FluxML/Flux.jl)
         description: >
-          [PR#930](https://github.com/FluxML/Flux.jl/issues/930),
-      - layout: top-middle
-        title: [\@types/cytoscape](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/d9fea1cc79eaff6202dbdaa2c737b9b2c1adfa37/types/cytoscape)
+          [PR#930](https://github.com/FluxML/Flux.jl/ISSUEs/930),
+      - layout: top-left
+        title: | #
+          [@types/cytoscape](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/d9fea1cc79eaff6202dbdaa2c737b9b2c1adfa37/types/cytoscape)
         description: >
           [PR#42293](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/42293),
-      - layout: top-middle
-        title: [\@types/mathjs](https://github.com/DefinitelyTyped/DefinitelyTyped/)
+      - layout: top-left
+        title: | #
+          [@types/mathjs](https://github.com/DefinitelyTyped/DefinitelyTyped/)
         description: >
           [PR#30211](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/30211),
           [PR#32117](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/32117),
-      - layout: top-middle
-        title: [capajon/r6maps](https://github.com/capajon/r6maps)
+      - layout: top-left
+        title: | #
+          [capajon/r6maps](https://github.com/capajon/r6maps)
         description: >
           [PR#27](https://github.com/capajon/r6maps/pull/27),
           [PR#40](https://github.com/capajon/r6maps/pull/40).
           [PR#59](https://github.com/capajon/r6maps/pull/59).
           [PR#93](https://github.com/capajon/r6maps/pull/93)
-      - layout: top-middle
-        title: [juliakorea/doc](https://github.com/juliakorea/doc)
+      - layout: top-left
+        title: | #
+          [juliakorea/doc](https://github.com/juliakorea/doc)
         description: >
           [PR#11](https://github.com/juliakorea/doc/pull/11),
           [PR#12](https://github.com/juliakorea/doc/pull/12),
@@ -196,10 +207,11 @@ content:
           [PR#28](https://github.com/juliakorea/doc/pull/28),
           [PR#51](https://github.com/juliakorea/doc/pull/51),
           [PR#54](https://github.com/juliakorea/doc/pull/54),
-      - layout: top-middle
-        title: [jacobwilliams/json-fortran](https://github.com/jacobwilliams/json-fortran)
+      - layout: top-left
+        title: | #
+          [jacobwilliams/json-fortran](https://github.com/jacobwilliams/json-fortran)
         description: >
-          [issue#152](https://github.com/jacobwilliams/json-fortran/issues/152)
+          [ISSUE#152](https://github.com/jacobwilliams/json-fortran/ISSUEs/152)
 
 # content:
 #   - title: Section Name
