@@ -42,7 +42,7 @@ cv_title: "Machine Learning Researcher"
 cv_email: "jongsukim8@gmail.com"
 cv_website: "https://liam.kim"
 cv_website_name: "liam.kim"
-cv_phone: "+82 10-2019-8869"
+# cv_phone: "+82 10-2019-8869"
 
 cv_pdf_kor: "assets/cv/CV_Jongsu_Kim_Kor.pdf"
 cv_pdf_eng: "assets/cv/CV_Jongsu_Kim_Eng.pdf"
@@ -91,7 +91,7 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: Laboratory Deep Learing/CFD Simulation Engineer
+        title: Phd Student
         sub_title: Yonsei University, South Korea
         caption: 09/2011 ~ 08/2021
         description: | #
@@ -165,7 +165,7 @@ content:
         2019, 대한기계학회 2019년도 추계학술대회
 
   - title: Open-source Contributions
-    layout: list
+    layout: list-markdown
     content:
       - layout: top-left
         title: | #
