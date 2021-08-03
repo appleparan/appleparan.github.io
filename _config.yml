@@ -66,11 +66,11 @@ content:
       - layout: top-middle
         title: Machine Learning and Deep Learning
         sub_title: | #
-          Time Series forecasting, Natural Language Processing
+          Time Series Forecasting, Natural Language Processing
       - layout: top-middle
         title: Mathematical Modeling
         sub_title: | #
-          Statistics, Computational Fluid Dynamics, Numerical Analysis
+          Computational Fluid Dynamics, Numerical Analysis, Statistics
       - layout: top-middle
         title: Languages
         sub_title: | #
