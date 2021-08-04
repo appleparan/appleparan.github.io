@@ -47,12 +47,12 @@
 
         {%- if site.cv_email -%}
           <p>
-            {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.cv_email }}" target="_blank">{{ site.cv_email | escape }}</a>
+            <span class="rev email">{{ site.cv_email | escape }}</span>
           </p>
         {%- endif -%}
         {%- if site.cv_phone -%}
           <p>
-            {{ site.phone_title | default: "Phone" }}: {{ site.cv_phone | escape }}
+            <span class="rev phone">{{ site.cv_phone | escape }}</span>
           </p>
         {%- endif -%}
         {%- if site.cv_website -%}

@@ -202,3 +202,12 @@ p.quote {
         margin-top: 1rem;
     }
 }
+
+// https://www.nelsonpires.com/development/protect-your-email-and-phone-number-from-spam-bots
+// https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi
+
+span.rev { unicode-bidi:bidi-override; direction:rtl }
+span.rev.email:before { content:"moc.li" }
+span.rev.email:after { content:"@8mikusgnoj :liamE" }
+span.rev.phone:before { content:"9688-9" }
+span.rev.phone:after { content:"-010 28+ :enohP" }

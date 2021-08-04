@@ -39,10 +39,10 @@ darkmode: never
 cv_name: "Jongsu Kim"
 cv_title: "Machine Learning Researcher"
 
-cv_email: "jongsukim8@gmail.com"
 cv_website: "https://liam.kim"
 cv_website_name: "liam.kim"
-# cv_phone: "+82 10-2019-8869"
+cv_email: "amg"
+cv_phone: "102"
 
 cv_pdf_kor: "assets/cv/CV_Jongsu_Kim_Kor.pdf"
 cv_pdf_eng: "assets/cv/CV_Jongsu_Kim_Eng.pdf"
