@@ -91,8 +91,8 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: Phd Student
-        sub_title: Yonsei University, South Korea
+        title: Ph.D. Student
+        sub_title: School of Mathematical Computing, Yonsei University, South Korea
         caption: 09/2011 ~ 08/2021
         description: | #
           * Particulate Matter (PM) forecasting by deep learning methods for time series forecasting (2018-2021)
