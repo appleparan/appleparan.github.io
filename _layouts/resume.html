@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-  {%- include cv/head.html -%}
+  {%- include resume/head.html -%}
 
   <body
     class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}"
   >
-    {%- include cv/header.html -%}
+    {%- include resume/header.html -%}
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {%- include cv/about.html -%}
+        {%- include resume/about.html -%}
         {% for section in site.content %}
         <div class="container {{ section.layout }}-container">
           <h3>{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "cv/section-" | append: ".html"
+          {% include {{ section.layout | prepend: "resume/section-" | append: ".html"
           }} content=section.content %}
         </div>
         {% endfor %}
       </div>
     </main>
 
-    {%- include cv/footer.html -%}
+    {%- include resume/footer.html -%}
     {% if site.darkmode == false %}
         <script>
             if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
