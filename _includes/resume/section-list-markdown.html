@@ -1,29 +1,31 @@
 {% for item in include.content %}
-  <div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-        <h4>{{ item.title | strip | markdownify }}</h4>
-        {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
-        {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+  <div class="row clearfix section-list-markdown layout layout-{{item.layout | default: 'left'}}">
+    <div class="col-12 col-lg-4 col-print-12 text-start details">
+        {%- if item.title -%}<h4 class="title">{{ item.title | strip | markdownify | remove: '<p>' | remove: '</p>'}}</h4>{%- endif -%}
+        {%- if item.sub_title -%}<p class="sub-title"><b>{{ item.sub_title | strip | markdownify | remove: '<p>' | remove: '</p>'}}</b></p>{%- endif -%}
+        {%- if item.caption -%}<p class="caption">{{ item.caption }}</p>{%- endif -%}
 
         {%- if item.link -%}
-            {% include a.html href=item.link class="link" %}
+            {% include resume/a.html href=item.link class="link" %}
             {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
             </a>
         {%- endif -%}
 
         <p class="no-print aditional-links">
             {% for link in item.additional_links %}
-            {% include a.html href=link.url class="" %}
+            {% include resume/a.html href=link.url class="" %}
                 <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
             </a>
             {% endfor %}
         </p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+    <div class="col-12 col-lg-8 col-print-12 content">
         {%- if item.quote -%}
             <p class="quote">{{ item.quote }}</p>
         {%- endif -%}
-        {{ item.description | strip | markdownify }}
+        <p>
+            {{ item.description | strip | markdownify | remove: '<p>' | remove: '</p>'}}
+        </p>
     </div>
   </div>
 {% endfor %}

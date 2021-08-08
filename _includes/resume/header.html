@@ -1,10 +1,10 @@
-<div class="container header-contianer">
+<div class="container header-container">
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <div class="col-12 col-lg-8 text-center text-lg-start header-left">
         <h1>{{ site.cv_name | escape }}</h1>
         <h2>{{ site.cv_title | escape }}</h2>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <div class="col-12 col-lg-4 text-center text-lg-start header-right">
         <ul class="icons no-print">
           {%- if site.blog -%}
             <li>
@@ -57,18 +57,18 @@
         {%- endif -%}
         {%- if site.cv_website -%}
           <p>
-            {{ site.website_title | default: "Web" }}: <a href="{{ site.cv_website }}">{{ site.cv_website_name }}</a>
+            {{ site.website_title | default: "Web" }}: <a href="{{ site.cv_website }}" class="text-decoration-none">{{ site.cv_website_name }}</a>
           </p>
         {%- endif -%}
         {%- if site.cv_pdf_kor -%}
           <div class="pdf-download">
             <ul>
                 <li class="pdf-title">PDF: </li>
-                <li class="pdf-kor"><a target="_blank" href="{{ site.cv_pdf_kor}}" >
+                <li class="pdf-kor"><a target="_blank" href="{{ site.cv_pdf_kor}}" class="text-decoration-none">
                     <i class="fa fa-download" aria-hidden="true"></i>
                     Korean</a>
                 </li>
-                <li class="pdf-eng"><a target="_blank" href="{{ site.cv_pdf_eng}}">
+                <li class="pdf-eng"><a target="_blank" href="{{ site.cv_pdf_eng}}" class="text-decoration-none">
                     <i class="fa fa-download" aria-hidden="true"></i>
                     English</a>
                 </li>

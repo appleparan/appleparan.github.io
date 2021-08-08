@@ -4,7 +4,6 @@ body {
     color: #333;
     font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
     font-feature-settings: "kern", "liga", "pnum";
-    font-size: 1rem;
     line-height: 1.5;
 
     @media print {
@@ -19,7 +18,6 @@ h4,
 h5,
 h6 {
     font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
-    font-size: 1rem;
     line-height: 1.2;
     margin: 0 0 0.75rem;
 }
@@ -39,19 +37,16 @@ a:hover {
 }
 
 h1 {
-    font-size: 4rem;
     margin-bottom: 0.1rem;
     font-weight: 700;
 }
 
 h2 {
     font-weight: 500;
-    font-size: 2rem;
 }
 
 h3 {
     font-weight: 500;
-    font-size: 3rem;
     text-align: center;
     border-bottom: dashed 2px #cccccc;
     padding-bottom: 10px;
@@ -64,18 +59,12 @@ h3 {
 
 h4 {
     font-weight: 500;
-    font-size: 2.5rem;
     margin-bottom: 3px;
 }
 
 p,
 ul {
-    font-size: 1.6rem;
     text-align: justify;
-}
-
-a i {
-    font-size: 1.6rem;
 }
 
 mark {
@@ -86,4 +75,12 @@ mark {
     border-radius: 3px;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.section-list-markdown {
+    .sub-title {
+        a {
+            text-decoration: none !important;
+        }
+    }
 }

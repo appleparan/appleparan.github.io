@@ -2,7 +2,7 @@
   <h3>{{ site.about_title | default: "About Me" }}</h3>
   <div class="row clearfix">
     {%- if site.cv_profile -%}
-    <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+    <div class="col-12 col-md-4 col-lg-3 no-print">
       <span
         class="profile-img"
         style="background-image: url({{ site.cv_profile | relative_url }})"
@@ -10,7 +10,7 @@
     </div>
     {%- endif -%}
     <div
-      class="{{ 'col-xs-12 ' }}{%- if site.cv_profile -%}col-sm-8 col-md-9 col-print-12{%- endif -%}"
+      class="{{ 'col-12 ' }}{%- if site.cv_profile -%}col-md-8 col-lg-9 col-print-12{%- endif -%}"
     >
       {{ site.about_content | strip | markdownify }}
     </div>
