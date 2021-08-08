@@ -139,7 +139,7 @@ content:
           * Undergraduate knowledge of Computer Science
           * National Science & Technology Scholarship (2007~2009)
 
-  - title: PUBLICATION
+  - title: PUBLICATIONS
     layout: text
     content: | #
       * Gihun Shim, Jongsu Kim, and Changhoon Lee,
@@ -150,7 +150,7 @@ content:
         Journal of Mechanical Science and Technology, accepted,
         [https://arxiv.org/abs/2106.03032](https://arxiv.org/abs/2106.03032)
 
-  - title: PRESENTATION
+  - title: PRESENTATIONS
     layout: text
     content: | #
       * Jongsu Kim and Changhoon Lee, 중력 하에서의 액적 충돌 시뮬레이션,
