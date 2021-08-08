@@ -67,17 +67,17 @@ content:
         sub_title: | #
           Time Series Forecasting, Natural Language Processing
       - layout: top-middle
+        title: Frameworks
+        sub_title: | #
+          PyTorch, Tensorflow, Keras, Flux.jl
+      - layout: top-middle
         title: Mathematical Modeling
         sub_title: | #
           Computational Fluid Dynamics, Numerical Analysis, Statistics
       - layout: top-middle
-        title: Languages
+        title: Programming Languages
         sub_title: | #
           Python, Julia, C++, Fortran, MATLAB, HTML/CSS, Javascript, TypeScript
-      - layout: top-middle
-        title: Frameworks
-        sub_title: | #
-          PyTorch, Tensorflow, Keras, Flux.jl
       - layout: top-middle
         title: Code and Code Quality Managing
         sub_title: | #
