@@ -146,13 +146,13 @@ content:
   - title: PUBLICATIONS
     layout: text
     content: | #
-      * Gihun Shim, Jongsu Kim, and Changhoon Lee,
-        Path instability of a spheroidal bubble in isotropic turbulence,
-        Physical Review Fluids, 6.7 (2021): 073603 [https://doi.org/10.1103/PhysRevFluids.6.073603](https://doi.org/10.1103/PhysRevFluids.6.073603)
       * Jongsu Kim and Changhoon Lee,
         Deep Particulate Matter Forecasting Model Using Correntropy-Induced Loss,
         Journal of Mechanical Science and Technology, accepted,
         [https://arxiv.org/abs/2106.03032](https://arxiv.org/abs/2106.03032)
+      * Gihun Shim, Jongsu Kim, and Changhoon Lee,
+        Path instability of a spheroidal bubble in isotropic turbulence,
+        Physical Review Fluids, 6.7 (2021): 073603 [https://doi.org/10.1103/PhysRevFluids.6.073603](https://doi.org/10.1103/PhysRevFluids.6.073603)
 
   - title: PRESENTATIONS
     layout: text
