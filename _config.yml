@@ -209,18 +209,18 @@ content:
         sub_title: | #
           [FluxML/Flux.jl](https://github.com/FluxML/Flux.jl)
         description: >
-          [ISSUE#930](https://github.com/FluxML/Flux.jl/issues/930),
+          [ISSUE#930](https://github.com/FluxML/Flux.jl/issues/930)
       - layout: top-left
         sub_title: | #
           [@types/cytoscape](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/d9fea1cc79eaff6202dbdaa2c737b9b2c1adfa37/types/cytoscape)
         description: >
-          [PR#42293](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/42293),
+          [PR#42293](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/42293)
       - layout: top-left
         sub_title: | #
           [@types/mathjs](https://github.com/DefinitelyTyped/DefinitelyTyped/)
         description: >
           [PR#30211](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/30211),
-          [PR#32117](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/32117),
+          [PR#32117](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/32117)
       - layout: top-left
         sub_title: | #
           [capajon/r6maps](https://github.com/capajon/r6maps)
