@@ -44,8 +44,8 @@ cv_website_name: "liam.kim"
 cv_email: "dummy_email"
 cv_phone: "dummy_phone"
 
-cv_pdf_kor: "assets/cv/CV_Jongsu_Kim_Kor.pdf"
-cv_pdf_eng: "assets/cv/CV_Jongsu_Kim_Eng.pdf"
+cv_pdf_kor: "assets/pdfs/resume-Jongsu-Kim-kor.pdf"
+cv_pdf_eng: "assets/pdfs/resume-Jongsu-Kim-eng.pdf"
 
 # Profile picture
 cv_profile: assets/images/profile.jpg
@@ -101,7 +101,7 @@ content:
         description: | #
           * Particulate Matter (PM) forecasting by deep learning methods for time series forecasting (2018-2021)
           * Modeling and simulation of finite-size particles in homogeneous isotropic turbulence using psuedo-spectral methods and immersed boundary methods (2015-2018)
-          * Modeling and simulation of finite-size droplets in laminar flows using level set methods (2011-2015)
+          * Modeling and simulation of finite-size droplets in laminar flows with gravity field using level set methods (2011-2015)
           * Communicate to support laboratory colleagues who was struggling with computer science-related problems such as algorithms, debugging, and so on.
             The process was then documented so that the next time the team encountered the same situation, they could follow a similar procedure.
           * Programming knowledge (mainly Julia, C++, Fortran)
