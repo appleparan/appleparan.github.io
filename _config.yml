@@ -71,13 +71,17 @@ content:
         sub_title: | #
           PyTorch, Tensorflow, Keras, Flux.jl
       - layout: top-middle
-        title: Mathematical Modeling
-        sub_title: | #
-          Computational Fluid Dynamics, Numerical Analysis, Statistics
-      - layout: top-middle
         title: Programming Languages
         sub_title: | #
           Python, Julia, C++, Fortran, MATLAB, HTML/CSS, Javascript, TypeScript
+      - layout: top-middle
+        title: Mathematics
+        sub_title: | #
+          Numerical Analysis, Statistics, Partial Differential Equation
+      - layout: top-middle
+        title: Fluid Mechanics
+        sub_title: | #
+          Computational Fluid Dynamics, Turbulence Modeling, Immersed Boundary Method
       - layout: top-middle
         title: Code and Code Quality Managing
         sub_title: | #
