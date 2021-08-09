@@ -67,7 +67,7 @@ content:
         sub_title: | #
           Time Series Forecasting, Natural Language Processing
       - layout: top-middle
-        title: Frameworks
+        title: Machine Learning Frameworks
         sub_title: | #
           PyTorch, Tensorflow, Keras, Flux.jl
       - layout: top-middle
