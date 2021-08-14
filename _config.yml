@@ -51,7 +51,7 @@ cv_pdf_eng: "assets/pdfs/resume-Jongsu-Kim-eng.pdf"
 cv_profile: assets/images/profile.jpg
 
 about_content: |
-  Hi, my name is Jongsu Kim, I'm a Ph.D. in Computational Science and Engineering-Mechanical/Electrical Engineering
+  Hi, I'm Jongsu Kim. I'm a Ph.D. in Computational Science and Engineering-Mechanical/Electrical Engineering
   qualified by a research background in machine learning and mathematical modeling
   focused on time series forecasting and computational fluid dynamics.
 
