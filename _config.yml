@@ -248,6 +248,12 @@ content:
         description: >
           [ISSUE#152](https://github.com/jacobwilliams/json-fortran/issues/152)
 
+  - title: LANGUAGE SKILLS
+    layout: text
+    content: | #
+      * English (Intermediate, TOEIC 875, OPIc IH(Intermediate High))
+      * Korean (Native)
+
 # content:
 #   - title: Section Name
 #     layout: list (options: list, text)
