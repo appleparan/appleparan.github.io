@@ -95,6 +95,12 @@ content:
     layout: list
     content:
       - layout: top-left
+        title: Artifical Intelligence Professional
+        sub_title: LG CNS
+        caption: 10/2021 ~ Present
+        description: | #
+          * AI Researcher
+      - layout: top-left
         title: Ph.D. Student
         sub_title: School of Mathematical Computing, Yonsei University, South Korea
         caption: 09/2011 ~ 08/2021
