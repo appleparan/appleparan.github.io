@@ -73,7 +73,7 @@ content:
       - layout: top-middle
         title: Programming Languages
         sub_title: | #
-          Python, Julia, C++, Fortran, MATLAB, HTML/CSS, Javascript, TypeScript
+          Python, Julia, C++, Fortran, MATLAB, LaTeX, HTML/CSS, Javascript, TypeScript
       - layout: top-middle
         title: Mathematics
         sub_title: | #
