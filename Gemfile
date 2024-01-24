@@ -10,5 +10,6 @@ gem "dotenv"
 gem "github-pages"
 gem "jekyll"
 gem "jekyll-github-metadata"
+gem 'html-proofer'
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
