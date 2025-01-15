@@ -37,7 +37,7 @@ animation: true
 darkmode: never
 
 cv_name: "Jongsu Kim"
-cv_title: "Machine Learning Researcher"
+cv_title: "AI Research Engineer | Data Scientist"
 
 cv_website: "https://liam.kim"
 cv_website_name: "liam.kim"
@@ -59,38 +59,7 @@ about_content: |
   Not only modeling skills, I also have a strong computer science background and like to actively learn new technologies.
 
 content:
-  - title: SKILLS
-    layout: list
-    content:
-      - layout: top-middle
-        title: Machine Learning and Deep Learning
-        sub_title: | #
-          Time Series Forecasting, Natural Language Processing
-      - layout: top-middle
-        title: Machine Learning Frameworks
-        sub_title: | #
-          PyTorch, Tensorflow, Keras, Flux.jl
-      - layout: top-middle
-        title: Programming Languages
-        sub_title: | #
-          Python, Julia, C++, Fortran, MATLAB, LaTeX, HTML/CSS, Javascript, TypeScript
-      - layout: top-middle
-        title: Mathematics
-        sub_title: | #
-          Numerical Analysis, Statistics, Partial Differential Equation
-      - layout: top-middle
-        title: Fluid Mechanics
-        sub_title: | #
-          Computational Fluid Dynamics, Turbulence Modeling, Immersed Boundary Method
-      - layout: top-middle
-        title: Code and Code Quality Managing
-        sub_title: | #
-          Git, GitHub, Travis-Ci, Github Actions, pytest, tox
-      - layout: top-middle
-        title: Server Engineering
-        sub_title: | #
-          Linux, High Performance Computing, Cloud Computing (AWS, GCP)
-
+  
   - title: EXPERIENCE
     layout: list
     content:
@@ -99,7 +68,12 @@ content:
         sub_title: LG CNS
         caption: 10/2021 ~ Present
         description: | #
-          * AI Researcher
+          * Focused on multifaceted problem-solving to address diverse and complex challenges across various topics
+          * Refined LLM training data and reduced training costs through a data-centric approach
+          * Controlled false alarms by implementing anomaly detection tailored for digital transformation using limited factory equipment and vibration data
+          * Managed a project to enhance the performance of unsupervised learning vision inspection models for detecting new defects
+          * Improved system stability by leveraging AWS metrics for data-driven anomaly detection and false alarm control
+          * Developed and deployed an end-to-end anomaly detection solution in a production environment
       - layout: top-left
         title: Ph.D. Student
         sub_title: School of Mathematical Computing, Yonsei University, South Korea
@@ -113,13 +87,6 @@ content:
           * Programming knowledge (mainly Julia, C++, Fortran)
           * Create web pages for multiple purposes in the department, such as conference, introduction pages, and so on.
           * Administrator of laboratory server (cluster with ~30 nodes)
-      # - layout: top-left
-      #   title: SK C&C
-      #   sub_title: | #
-      #     Full time work
-      #   caption: 07/2010 ~ 08/2010
-      #   description: | #
-      #     I learned Database management using C# and SQL.
 
   - title: EDUCATION
     layout: list
@@ -161,23 +128,93 @@ content:
         Path instability of a spheroidal bubble in isotropic turbulence,
         Physical Review Fluids, 6.7 (2021): 073603 [https://doi.org/10.1103/PhysRevFluids.6.073603](https://doi.org/10.1103/PhysRevFluids.6.073603)
 
+  - title: AWARDS
+    layout: text
+    content: | #
+      * Journal of Mechanical Science and Technology, 
+        2021 JMST Second Best Paper Award. 2022. 11.
+
+  - title: SKILLS
+    layout: list
+    content:
+      - layout: top-middle
+        title: Machine Learning and Deep Learning
+        sub_title: | #
+          Time Series Forecasting, Natural Language Processing
+      - layout: top-middle
+        title: Machine Learning Frameworks
+        sub_title: | #
+          PyTorch, Tensorflow, Keras, Flux.jl
+      - layout: top-middle
+        title: Programming Languages
+        sub_title: | #
+          Python, Julia, C++, Fortran, MATLAB, LaTeX, HTML/CSS, Javascript, TypeScript
+      - layout: top-middle
+        title: Mathematics
+        sub_title: | #
+          Numerical Analysis, Statistics, Partial Differential Equation
+      - layout: top-middle
+        title: Fluid Mechanics
+        sub_title: | #
+          Computational Fluid Dynamics, Turbulence Modeling, Immersed Boundary Method
+      - layout: top-middle
+        title: Code and Code Quality Managing
+        sub_title: | #
+          Git, GitHub, Travis-Ci, Github Actions, pytest, tox
+      - layout: top-middle
+        title: Server Engineering
+        sub_title: | #
+          Linux, High Performance Computing, Cloud Computing (AWS, GCP)
+
   - title: PRESENTATIONS
     layout: text
     content: | #
       * Jongsu Kim and Changhoon Lee, 머신러닝 기반의 미세먼지 장기 예측 모델 개발,
-        2019, 대한기계학회 2019년도 추계학술대회
+        2019, KSME Annual Meeting 2019
       * Jongsu Kim and Changhoon Lee, Predicting Concentration of Atmospheric Aerosol Particle using Machine Learning Technique,
-        2019, 2019년 한국계산과학공학회 춘계학술대회 및 정기총회
+        2019, Korean Society for Computational Science and Engineering Annual Meeting 2019
       * Jongsu Kim and Changhoon Lee, The numerical investigation on collision between two droplets within effects of gravity force,
-        2014, 제8회 유체공학 학술대회
+        2014, The 8th National Congress On Fluid Engineering
       * Jongsu Kim and Changhoon Lee, 중력장 내에서의 두 액적 충돌에 관한 수치 시뮬레이션에 관한 연구,
-        2014, 대한기계학회 2014년도 추계학술대회
+        2014, KSME Annual Meeting 2014
       * Jongsu Kim and Changhoon Lee, 중력 하에서의 액적 충돌 시뮬레이션,
-        2012, 대한기계학회 2012년도 추계학술대회
-
+        2012, KSME Annual Meeting 2012
+  
+  - title: PERSONAL PROJECTS
+    layout: text
+    content: | 
+      * [copier-modern-ml](https://github.com/appleparan/copier-modern-ml)
+        * Opinionated Python template for machine learning project with modern workflows made with copier
+        * copier를 사용하여 모던 툴링 기반 머신러닝용 프로젝트 템플릿 셋업 도구
+        * uv를 사용한 프로젝트 셋업
+        * mkdocs-material를 사용한 문서화
+        * GitHub Actions를 사용한 CI/CD
+  
   - title: OPEN-SOURCE CONTRIBUTIONS
     layout: list-markdown
     content:
+      - layout: top-left
+        sub_title: | #
+          [cloneofsimo/ezmup](https://github.com/cloneofsimo/ezmup)
+        description: >
+          [PR#1](https://github.com/cloneofsimo/ezmup/pull/1)
+      - layout: top-left
+        sub_title: | #
+          [omnitool-ai/omnitool](https://github.com/omnitool-ai/omnitool)
+        description: >
+          [PR#1](https://github.com/omnitool-ai/omnitool/pull/1)
+      - layout: top-left
+        sub_title: | #
+          [jiffyclub/palettable](https://github.com/jiffyclub/palettable)
+        description: >
+          [PR#54](https://github.com/jiffyclub/palettable/pull/54),
+          [PR#55](https://github.com/jiffyclub/palettable/pull/55),
+          [PR#58](https://github.com/jiffyclub/palettable/pull/58)
+      - layout: top-left
+        sub_title: | #
+          [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core)
+        description: >
+          [PR#93097](https://github.com/Homebrew/homebrew-core/pull/93097)
       - layout: top-left
         sub_title: | #
           [invenia/Impute.jl](https://github.com/invenia/Impute.jl)
