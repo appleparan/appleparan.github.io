@@ -42,7 +42,7 @@ cv_title: "AI Research Engineer | Data Scientist"
 cv_website: "https://liam.kim"
 cv_website_name: "liam.kim"
 cv_email: "dummy_email"
-cv_phone: "dummy_phone"
+# cv_phone: "dummy_phone"
 
 cv_pdf_kor: "assets/pdfs/resume-Jongsu-Kim-kor.pdf"
 cv_pdf_eng: "assets/pdfs/resume-Jongsu-Kim-eng.pdf"
